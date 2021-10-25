@@ -12,7 +12,7 @@ var urlSchema = new mongoose.Schema({
 	urlShort: {type: Number},
 }); 
 
-var mainUrl = mongoose.model('Url', urlSchema);
+var mainUrl = mongoose.model('mainUrl', urlSchema);
 
 // Basic Configuration
 const port = process.env.PORT || 3000;
